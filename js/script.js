@@ -1,12 +1,12 @@
 let pokemonList=[];
 
-pokemonList.objects({
+pokemonList.prop({
     name: "Charmander",
     height: 6,
     types: ['fire']
   });
   
-  pokemonList.objects({
+  pokemonList.prop({
     name: "Squirtle",
     height: 5,
     types: ['water']
